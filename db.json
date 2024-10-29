@@ -185,8 +185,8 @@
   ],
   "keranjangs": [
     {
-      "jumlah": 2,
-      "total_harga": 24000,
+      "jumlah": 3,
+      "total_harga": 36000,
       "product": {
         "id": "3",
         "kode": "K-03",
@@ -199,12 +199,12 @@
           "nama": "Makanan"
         }
       },
+      "keterangan": "cendol",
       "id": "c9e9"
     },
     {
-      "id": "dce4",
-      "jumlah": 1,
-      "total_harga": 14000,
+      "jumlah": 2,
+      "total_harga": 28000,
       "product": {
         "id": "2",
         "kode": "K-02",
@@ -216,24 +216,8 @@
           "id": 1,
           "nama": "Makanan"
         }
-      }
-    },
-    {
-      "id": "f3dc",
-      "jumlah": 1,
-      "total_harga": 10000,
-      "product": {
-        "id": "6",
-        "kode": "K-06",
-        "nama": "Bakso",
-        "harga": 10000,
-        "is_ready": true,
-        "gambar": "bakso.jpg",
-        "category": {
-          "id": 1,
-          "nama": "Makanan"
-        }
-      }
+      },
+      "id": "dce4"
     }
   ],
   "pesanans": [
