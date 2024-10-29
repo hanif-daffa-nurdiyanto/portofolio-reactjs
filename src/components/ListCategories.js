@@ -67,7 +67,7 @@ export default class ListCategories extends Component {
                 onClick={() => changeCategory(category.nama)}
                 className={`cursor-pointer ${
                   categoriYangDipilih === category.nama
-                    ? "bg-black text-white"
+                    ? "category-aktif"
                     : "text-black"
                 }`}
                 style={{ cursor: "pointer" }}
