@@ -9,6 +9,58 @@ body {
   background-color: #22668A;
 }
 
+.hasil {
+  height: 450px;
+}
+
+.menu {
+  height: 700px;
+}
+
+@media only screen and (max-height: 600px) {
+  .hasil {
+    height: 250px !important;
+  }
+
+  .menu {
+    height: 300px !important;
+  }
+}
+
+@media only screen and (max-height: 1200px) {
+  .hasil {
+    height: 350px !important;
+  }
+
+  .menu {
+    height: 490px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .menu,
+  .hasil {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .payment-button {
+    width: 100%;
+  }
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
